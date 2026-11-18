@@ -1,0 +1,402 @@
+while True:
+    print("\n" + "=" * 50)
+    print("                    PYTHON")
+    print("                  PROGRAMMING")
+    print("=" * 50)
+
+    print("Welcome to PYTHON!")
+    print("Explore the world of Python programming.")
+    print("-" * 50)
+
+    print("[1] Basic Python Syntax")
+    print("[2] Variables and Data Types")
+    print("[3] Input and Output")
+    print("[4] Conditional Statements")
+    print("[5] While Loops")
+    print("[6] For Loops")
+
+    print("=" * 50)
+
+    choose = input("Please select a programming topic: ")
+
+
+    if choose == "1":
+        print("\n=== BASIC PYTHON SYNTAX ===")
+        print("Syntax refers to the rules of writing Python code.")
+        print("Even a small mistake can affect a program.")
+        print("\nSYSTEM CHALLENGE")
+        print("Which function displays information on the screen?")
+        answer = input("Your answer: ")
+
+        if answer.lower() == "print":
+            print("Correct! You understand the basics.")
+        else:
+            print("Not quite! The correct concept is print().")
+
+        print("\n=== LESSON SUMMARY ===")
+        print("The print() function displays information on the screen.")
+        print("Remember correct syntax helps your program run properly!")
+
+
+        print("\nSYSTEM MESSAGE:")
+        print('"You entered this system to learn Python.')
+        print('But you are leaving with something greater.')
+        print('You have learned to think like a programmer."')
+
+        print("\nLEARNING SESSION COMPLETED.")
+        print("Thank you for exploring the world of code!")
+        print("\n" + "~" * 50)
+
+
+    elif choose == "2":
+        print("\n=== VARIABLES AND DATA TYPES ===")
+        print("Variables store information in a program.")
+        print("Data types describe the kind of information.")
+
+        print("\nSYSTEM CHALLENGE")
+        print("Which data type represents whole numbers?")
+        print("A. str")
+        print("B. int")
+        print("C. float")
+
+        answer = input("Your answer: ")
+
+        if answer.lower() == "b":
+            print("Correct! int represents whole numbers.")
+        else:
+            print("Incorrect! The answer is B. int")
+
+        print("\n=== LESSON SUMMARY ===")
+        print("Data types identify the kind of stored information.")
+        print("Remember int is used for whole numbers.")
+
+        print("\nSYSTEM MESSAGE:")
+        print('"You entered this system to learn Python.')
+        print('But you are leaving with something greater.')
+        print('You have learned to think like a programmer."')
+
+        print("\nLEARNING SESSION COMPLETED.")
+        print("Thank you for exploring the world of code!")
+        print("\n" + "~" * 50)
+
+
+    elif choose == "3":
+        print("\n=== INPUT AND OUTPUT ===")
+        print("input() receives information from the user.")
+        print("print() displays information.")
+
+        print("\nSYSTEM CHALLENGE")
+        name = input("Enter your name: ")
+        language = input("Favorite programming language: ")
+
+        print("\nUSER PROFILE")
+        print("Name:", name)
+        print("Favorite language:", language)
+
+        print("\n=== LESSON SUMMARY ===")
+        print("Remember Input receives data, while Output displays data.")
+
+        print("\nSYSTEM MESSAGE:")
+        print('"You entered this system to learn Python.')
+        print('But you are leaving with something greater.')
+        print('You have learned to think like a programmer."')
+
+        print("\nLEARNING SESSION COMPLETED.")
+        print("Thank you for exploring the world of code!")
+        print("\n" + "~" * 50)
+
+
+    elif choose == "4":
+        print("\n=== CONDITIONAL STATEMENTS ===")
+        print("Conditional statements allow programs to make decisions.")
+        print("They use if, elif, and else.")
+
+        print("\nSYSTEM CHALLENGE")
+        number = int(input("Enter a number: "))
+
+        if number > 10:
+            print("The number is greater than 10.")
+        elif number == 10:
+            print("The number is exactly 10.")
+        else:
+            print("The number is less than 10.")
+
+        print("\n=== LESSON SUMMARY ===")
+        print("if, elif, and else control which instructions are executed.")
+        print("Remember Conditions depend on whether an expression is True or False.")
+
+        print("\nSYSTEM MESSAGE:")
+        print('"You entered this system to learn Python.')
+        print('But you are leaving with something greater.')
+        print('You have learned to think like a programmer."')
+
+        print("\nLEARNING SESSION COMPLETED.")
+        print("Thank you for exploring the world of code!")
+        print("\n" + "~" * 50)
+
+
+    elif choose == "5":
+        print("\n=== WHILE LOOPS ===")
+        print("A while loop repeats instructions")
+        print("while a condition remains true.")
+
+        print("\nSYSTEM CHALLENGE")
+        secret_number = 7
+        attempts = 0
+
+        while True:
+            guess = int(input("Guess the secret number (1-10): "))
+            attempts += 1
+
+            if guess == secret_number:
+                print("\nCongratulations! You found it!")
+                break
+            else:
+                print("Wrong guess! Try again.")
+
+        print("Number of attempts:", attempts)
+
+        print("\n=== LESSON SUMMARY ===")
+        print("It continues running until the condition becomes False.")
+        print("Remember Use break to stop a loop when needed.")
+
+        print("\nSYSTEM MESSAGE:")
+        print('"You entered this system to learn Python.')
+        print('But you are leaving with something greater.')
+        print('You have learned to think like a programmer."')
+
+        print("\nLEARNING SESSION COMPLETED.")
+        print("Thank you for exploring the world of code!")
+        print("\n" + "~" * 50)
+
+
+    elif choose == "6":
+        print("\n=== FOR LOOPS ===")
+        print("A for loop repeats instructions over a sequence.")
+
+        print("\nSYSTEM CHALLENGE")
+        print("The system will count from 1 to 5.")
+
+        for number in range(1, 6):
+            print("Processing number:", number)
+
+        print("\n=== LESSON SUMMARY ===")
+        print("range() can be used to generate a sequence of numbers.")
+        print("Remember For loops are useful for repeating tasks.")
+
+        print("\nSYSTEM MESSAGE:")
+        print('"You entered this system to learn Python.')
+        print('But you are leaving with something greater.')
+        print('You have learned to think like a programmer."')
+
+        print("\nLEARNING SESSION COMPLETED.")
+        print("Thank you for exploring the world of code!")
+        print("\n" + "~" * 50)
+
+        break
+
+
+    else:
+        while True:
+            print("\nSYSTEM ERROR!")
+            print("Invalid selection. Please choose from 0 to 6 .")
+
+            enter = input("\nPress Enter to try again...")
+
+            if enter == "enter":
+                while True:
+                    print("\n" + "=" * 50)
+                    print("                    PYTHON")
+                    print("                  PROGRAMMING")
+                    print("=" * 50)
+
+                    print("Welcome to PYTHON!")
+                    print("Explore the world of Python programming.")
+                    print("-" * 50)
+
+                    print("[1] Basic Python Syntax")
+                    print("[2] Variables and Data Types")
+                    print("[3] Input and Output")
+                    print("[4] Conditional Statements")
+                    print("[5] While Loops")
+                    print("[6] For Loops")
+
+                    print("=" * 50)
+
+                    choose = input("Please select a programming topic: ")
+
+                    if choose == "1":
+                        print("\n=== BASIC PYTHON SYNTAX ===")
+                        print("Syntax refers to the rules of writing Python code.")
+                        print("Even a small mistake can affect a program.")
+                        print("\nSYSTEM CHALLENGE")
+                        print("Which function displays information on the screen?")
+                        answer = input("Your answer: ")
+
+                        if answer.lower() == "print":
+                            print("Correct! You understand the basics.")
+                        else:
+                            print("Not quite! The correct concept is print().")
+
+                        print("\n=== LESSON SUMMARY ===")
+                        print("The print() function displays information on the screen.")
+                        print("Remember correct syntax helps your program run properly!")
+
+                        print("\nSYSTEM MESSAGE:")
+                        print('"You entered this system to learn Python.')
+                        print('But you are leaving with something greater.')
+                        print('You have learned to think like a programmer."')
+
+                        print("\nLEARNING SESSION COMPLETED.")
+                        print("Thank you for exploring the world of code!")
+                        print("\n" + "~" * 50)
+
+
+                    elif choose == "2":
+                        print("\n=== VARIABLES AND DATA TYPES ===")
+                        print("Variables store information in a program.")
+                        print("Data types describe the kind of information.")
+
+                        print("\nSYSTEM CHALLENGE")
+                        print("Which data type represents whole numbers?")
+                        print("A. str")
+                        print("B. int")
+                        print("C. float")
+
+                        answer = input("Your answer: ")
+
+                        if answer.lower() == "b":
+                            print("Correct! int represents whole numbers.")
+                        else:
+                            print("Incorrect! The answer is B. int")
+
+                        print("\n=== LESSON SUMMARY ===")
+                        print("Data types identify the kind of stored information.")
+                        print("Remember int is used for whole numbers.")
+
+                        print("\nSYSTEM MESSAGE:")
+                        print('"You entered this system to learn Python.')
+                        print('But you are leaving with something greater.')
+                        print('You have learned to think like a programmer."')
+
+                        print("\nLEARNING SESSION COMPLETED.")
+                        print("Thank you for exploring the world of code!")
+                        print("\n" + "~" * 50)
+
+
+                    elif choose == "3":
+                        print("\n=== INPUT AND OUTPUT ===")
+                        print("input() receives information from the user.")
+                        print("print() displays information.")
+
+                        print("\nSYSTEM CHALLENGE")
+                        name = input("Enter your name: ")
+                        language = input("Favorite programming language: ")
+
+                        print("\nUSER PROFILE")
+                        print("Name:", name)
+                        print("Favorite language:", language)
+
+                        print("\n=== LESSON SUMMARY ====")
+                        print("Remember Input receives data, while Output displays data.")
+
+                        print("\nSYSTEM MESSAGE:")
+                        print('"You entered this system to learn Python.')
+                        print('But you are leaving with something greater.')
+                        print('You have learned to think like a programmer."')
+
+                        print("\nLEARNING SESSION COMPLETED.")
+                        print("Thank you for exploring the world of code!")
+                        print("\n" + "~" * 50)
+
+
+                    elif choose == "4":
+                        print("\n=== CONDITIONAL STATEMENTS ===")
+                        print("Conditional statements allow programs to make decisions.")
+                        print("They use if, elif, and else.")
+
+                        print("\nSYSTEM CHALLENGE")
+                        number = int(input("Enter a number: "))
+
+                        if number > 10:
+                            print("The number is greater than 10.")
+                        elif number == 10:
+                            print("The number is exactly 10.")
+                        else:
+                            print("The number is less than 10.")
+
+                        print("\n=== LESSON SUMMARY ===")
+                        print("if, elif, and else control which instructions are executed.")
+                        print("Remember Conditions depend on whether an expression is True or False.")
+
+                        print("\nSYSTEM MESSAGE:")
+                        print('"You entered this system to learn Python.')
+                        print('But you are leaving with something greater.')
+                        print('You have learned to think like a programmer."')
+
+                        print("\nLEARNING SESSION COMPLETED.")
+                        print("Thank you for exploring the world of code!")
+                        print("\n" + "~" * 50)
+
+
+                    elif choose == "5":
+                        print("\n=== WHILE LOOPS ===")
+                        print("A while loop repeats instructions")
+                        print("while a condition remains true.")
+
+                        print("\nSYSTEM CHALLENGE")
+                        secret_number = 7
+                        attempts = 0
+
+                        while True:
+                            guess = int(input("Guess the secret number (1-10): "))
+                            attempts += 1
+
+                            if guess == secret_number:
+                                print("\nCongratulations! You found it!")
+                                break
+                            else:
+                                print("Wrong guess! Try again.")
+
+                        print("Number of attempts:", attempts)
+
+                        print("\n=== LESSON SUMMARY ===")
+                        print("It continues running until the condition becomes False.")
+                        print("Remember Use break to stop a loop when needed.")
+
+                        print("\nSYSTEM MESSAGE:")
+                        print('"You entered this system to learn Python.')
+                        print('But you are leaving with something greater.')
+                        print('You have learned to think like a programmer."')
+
+                        print("\nLEARNING SESSION COMPLETED.")
+                        print("Thank you for exploring the world of code!")
+                        print("\n" + "~" * 50)
+
+
+                    elif choose == "6":
+                        print("\n=== FOR LOOPS ===")
+                        print("A for loop repeats instructions over a sequence.")
+
+                        print("\nSYSTEM CHALLENGE")
+                        print("The system will count from 1 to 5.")
+
+                        for number in range(1, 6):
+                            print("Processing number:", number)
+
+                        print("\n=== LESSON SUMMARY ===")
+                        print("range() can be used to generate a sequence of numbers.")
+                        print("Remember For loops are useful for repeating tasks.")
+
+                        print("\nSYSTEM MESSAGE:")
+                        print('"You entered this system to learn Python.')
+                        print('But you are leaving with something greater.')
+                        print('You have learned to think like a programmer."')
+
+                        print("\nLEARNING SESSION COMPLETED.")
+                        print("Thank you for exploring the world of code!")
+                        print("\n" + "~" * 50)
+
+                        break
+
+                break
